@@ -1,0 +1,18 @@
+.heading {
+    display: block;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.heading>h4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid #BE5858;
+    width: 20%;
+}

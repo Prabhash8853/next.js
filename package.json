@@ -1,0 +1,36 @@
+{
+  "name": "frontend-vigyaa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "next": "9.3.5",
+    "next-images": "^1.4.0",
+    "next-redux-wrapper": "^5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "html-react-parser": "^0.10.2",
+    "react-media": "^1.9.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.20",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.10.0",
+    "@fortawesome/react-fontawesome": "^0.1.4"
+  },
+  "proxy": "http://127.0.0.1:8000/"
+}
